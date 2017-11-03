@@ -31,6 +31,7 @@ body{
   padding-left: 10px;
 }
 .links {
+  text-decoration: underline;
   padding-left: 20px;
   padding-right: 20px;
   color: seashell;
@@ -41,7 +42,7 @@ a:link {
 a:visited {
   color: seashell;
 }
-.mission {
+#mission {
   justify-content: center;
   align-items: center;
   flex-direction: column;
@@ -50,14 +51,28 @@ a:visited {
   height: 700px;
   background-image: url("../images/img-mission-background.jpg")
 }
-.mission h2{
+#mission h2{
   margin: 0;
   width: 1200px;
   background-color: black;
 
 }
-.mission h4{
+.#mission h4{
   margin: 0;
   width: 1200px;
   background-color: black;
+}
+.specials {
+  width: 1000px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+
+}
+div.sp img {
+  height: 200px;
+  width: 300px;
+}
+div.sp h4 {
+  margin: 10px;
 }
