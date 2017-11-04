@@ -72,24 +72,45 @@ a:visited {
 
 }
 div.sp img {
+  maring: 10px;
   height: 200px;
   width: 300px;
 }
 div.sp h4 {
-  margin: 10px;
+  /*margin: 10px;*/
 }
 #locations {
-
+  padding-top: 70px;
   width: 1200px;
   height: 500px;
   background-image: url("../images/img-locations-background.jpg");
+  background-size: 100%;
 }
 div.addresses {
   display: flex;
   justify-content: space-evenly;
 }
 .addresses div {
+  margin-left: 20px;
+  margin-right: 20px;
+  opacity: 1;
+  margin-top: 15px;
+  flex-direction: column;
+  display: flex;
+  justify-content: space-around;
   height:300px;
   width: 300px;
  background-color: black;
+}
+.contact {
+  height: 200px;
+  display: block;
+}
+footer {
+  width: 100%;
+  margin-left: 20px;
+  text-align: left;
+}
+#copy {
+  margin-left: 20px;
 }
